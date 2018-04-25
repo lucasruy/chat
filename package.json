@@ -1,0 +1,25 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "description": "Front-end challenge for Creditas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/LucasRuy/web-chat.git"
+  },
+  "keywords": [
+    "Javascript",
+    "ES6",
+    "Chat",
+    "Vanilla"
+  ],
+  "author": "Lucas Ruy <lukas.r@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/LucasRuy/web-chat/issues"
+  },
+  "homepage": "https://gitlab.com/LucasRuy/web-chat#README"
+}
