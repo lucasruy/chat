@@ -1,25 +1,40 @@
 {
-  "name": "web-chat",
-  "version": "1.0.0",
-  "description": "Front-end challenge for Creditas.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/LucasRuy/web-chat.git"
-  },
-  "keywords": [
-    "Javascript",
-    "ES6",
-    "Chat",
-    "Vanilla"
-  ],
-  "author": "Lucas Ruy <lukas.r@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/LucasRuy/web-chat/issues"
-  },
-  "homepage": "https://gitlab.com/LucasRuy/web-chat#README"
+    "name": "web-chat",
+    "version": "1.0.0",
+    "description": "Front-end challenge for Creditas.",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open",
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/LucasRuy/web-chat.git"
+    },
+    "keywords": [
+        "Javascript",
+        "ES6",
+        "Chat",
+        "Vanilla"
+    ],
+    "author": "Lucas Ruy <lukas.r@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://gitlab.com/LucasRuy/web-chat/issues"
+    },
+    "homepage": "https://gitlab.com/LucasRuy/web-chat#README",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "css-loader": "^0.28.11",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.0",
+        "webpack": "^4.6.0",
+        "webpack-cli": "^2.0.15",
+        "webpack-dev-server": "^3.1.3"
+    }
 }
