@@ -1,0 +1,37 @@
+.field {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid c-black;
+    border-radius: 0px;
+
+    color: c-black;
+    outline: none;
+    
+    transition: t-default;
+
+    &:hover {
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    &:focus {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+    }
+    
+    &::placeholder {
+        color: c-text;
+    }
+
+    &--send {
+        height: 40px;
+        line-height: 18px;
+
+        padding-left: 25px;
+        padding-right: 25px;
+
+        border-color: c-green-dark;
+        border-width: 2px;
+        border-radius: 50px 0px 0px 50px;
+
+        float: left;
+    }
+}

@@ -1,0 +1,27 @@
+// =========================================
+// Mixins ----------------------------------
+
+// ------------------------------
+// Clearfix mixin
+// Exemplo de uso: chamar clearfix() dentro da classe onde deseja aplicar
+clearfix(){
+    clear both
+    &:before {
+        content: '';
+        display: block;
+    }
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }   
+}
+
+// ------------------------------
+// Grid mixin
+// Exemplo de uso: chamar grid('LarguraDesejada') dentro da classe onde deseja aplicar
+grid(value){
+    display: inline-block;
+    width: value;
+    float: left;
+}
