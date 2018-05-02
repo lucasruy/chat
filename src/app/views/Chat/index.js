@@ -1,14 +1,14 @@
-import ChatTemplate from "../../template/ChatTemplate";
-import Message from "../../components/Message";
+import ChatTemplate from '../../template/ChatTemplate';
+import Message from '../../components/Message';
 
 class Chat {
   constructor(element) {
     this.selector = document.querySelector(element);
+    this.messageItem = new Message();
   }
 
   send() {
-    const messageItem = new Message();
-    messageItem.init();
+    this.messageItem.init();
   }
 
   init() {

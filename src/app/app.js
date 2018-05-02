@@ -1,13 +1,15 @@
 // Chat stylesheet
-import style from "../static/stylesheet/application.styl";
+/* eslint-disable */
+import style from '../static/stylesheet/application.styl';
+/* eslint-enable */
 
 // Chat script
-import Chat from "./views/Chat";
+import Chat from './views/Chat';
 
 // Instance app
-let App = new Chat('#app');
+const App = new Chat('#app');
 
 // Call app
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', () => {
   App.init();
 });

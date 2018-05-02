@@ -1,5 +1,9 @@
-const MessageTemplate = (message, date) => `
-  <p>${message}</p>
-`;
+const MessageTemplate = (message) => {
+  const markup = `
+    <p>${message}</p>
+  `;
+
+  return markup;
+};
 
 export default MessageTemplate;

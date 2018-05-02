@@ -44,6 +44,6 @@ class Message {
     this.submit();
     this.update();
   }
-};
+}
 
 export default Message;
